@@ -1,10 +1,24 @@
-body {background: #b3b3ff; margin: 0; padding: 0;} 
-a {color: #2b2bf6;}           
-#container {width: 900px; margin: 0; padding: 0; background: #b3b3ff;}           
-#header {width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;}           
-#sidebar {width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;}           
-#content {width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #b3b3ff;}           
-#footer {width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;}                            
+body {
+	background: #b3b3ff; margin: 0; padding: 0;
+} 
+a {
+	color: #2b2bf6;
+}           
+#container {
+	width: 900px; margin: 0; padding: 0; background: #dddddd;
+}           
+#header {
+	width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;
+}           
+#sidebar {
+	width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;
+}           
+#content {
+	width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;
+}           
+#footer {
+	width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;
+}                          
 
 
 table, th, td {
