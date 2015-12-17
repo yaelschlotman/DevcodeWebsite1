@@ -31,7 +31,7 @@ h3 {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: none;
     border-collapse: collapse;
 }
 th, td {
