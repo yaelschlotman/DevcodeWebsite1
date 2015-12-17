@@ -1,28 +1,41 @@
 body {
-	background: #b3b3ff; margin: 0; padding: 0;
+	background: white; margin: 0; padding: 0;
 } 
 a {
 	color: #2b2bf6;
 }           
 #container {
-	width: 900px; margin: 0; padding: 0; background: #dddddd;
+	margin: 0 auto; background: #8be0ef;
 }           
 #header {
-	width: 900px; 	height: 150px; 	margin: 0; padding: 0; border: 0; background: #f346e1;
+	margin: 0 auto; background: #f346e1;
 }           
-#sidebar {
-	width: 200px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #f0e811;
-}           
+           
 #content {
-	width: 700px; height: 400px; 	margin: 0; padding: 0; border: 0; float: left; background: #8be0ef;
+	margin: 0 auto; background: #8be0ef;
 }           
 #footer {
-	width: 900px; 	height: 70px; 	margin: 0; padding: 0; border: 0; float: left; background: #000000; clear:both;
+	margin: 0 auto; background: #000000; clear:both;
 }                          
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: right;
+}
 
 table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
 }
 p {
 	font-family: sans-serif;
