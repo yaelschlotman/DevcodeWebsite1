@@ -1,18 +1,31 @@
 body {
-	background: white; margin: 0; padding: 0;
+	
 } 
 a {
 	color: #2b2bf6;
 }           
 #container {
-	margin: 0 auto; background: #8be0ef;
+	
 }           
 #header {
-	margin: 0 auto; background: #f346e1;
-}           
+	background: black;
+	text-align: center;
+	color: white
+}
+#nav {
+	background-image: url("green_dust_scratch.png");
+	text-align: left;
+	color: black;
+	width: 300px;
+	float: left;
+}        
            
-#content {
-	margin: 0 auto; background: #8be0ef;
+#section {
+	 background-color: white;
+	 text-align: left;
+	 color: black;
+	 float: left;
+
 }           
 #footer {
 	margin: 0 auto; background: #000000; clear:both;
@@ -20,14 +33,18 @@ a {
 
 h1 {
     text-align: center;
+    font-size: 4;
+    font-family: sans-serif;
+    font-style: italic;
 }
 
 h2 {
-    text-align: center;
+	font-family: verdana;
+	text-align: left;
 }
 
 h3 {
-    text-align: right;
+    text-align: left;
 }
 
 table, th, td {
@@ -42,11 +59,11 @@ p {
 	color: #0000FF;
 	
 h1 }
-	font-family: sans-serif;
+	font:  verdana;
 	color:  dark blue
 }
 
 h2{
-	font-family: sans-serif;
+	font: verdana;
 	color: dark blue
 } 
