@@ -1,41 +1,8 @@
 
 body {
 	padding: 20px 20px 20px 20px;
-} 
-a {
-	color: #000000;
-}           
-#container {
-	
-}           
-#header {
-	background: black url(images/GeekyCakesLogo.jpg) top center no-repeat;
-	text-align: center;
 	margin: 0 auto 0 auto;
-	max-width: 2000px;
-	height: 300px;
-}
-#header img {
-	margin-left: auto;
-	margin-right: auto;
-}
-#header ul li{
-	display: inline;
-	padding; 300px auto 30px auto; 
-        
-           
-#section {
-	 background-color: white;
-	 color: black;
-	 max-width: 2500px;
-	 margin-left: auto;
-	 margin-right: auto;
-
-
-}           
-#footer {
-	margin: 0 auto; background: #000000; clear:both;
-
+} 
 
 h1 {
 	margin: 10px 0px 10px 0px;
@@ -49,13 +16,66 @@ h3 {
 	margin: 15px 0px 15px 0px;
 }
 
+a {
+	color: #000000;
+}           
+
+#container {
+	
+}           
+
+#header {
+	background: black url(images/GeekyCakesLogo.jpg) top center no-repeat;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	max-width: 2000px;
+	height: 300px;
+}
+
+#header img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header p {
+	padding-top: 175px;
+}
+
+#header li{
+	display: inline;
+	padding: 0px 20px 0px 20px; 
+}        
+
+#header a {
+	text-decoration: none;
+}
+
+#header a-hover {
+	text-decoration: underline;
+	color: dark red;
+}
+  
+#section {
+	 background-color: white;
+	 color: black;
+	 max-width: 2000px;
+	 margin-left: auto;
+	 margin-right: auto;
+}           
+
+#footer {
+	margin: 0 auto; background: #000000; clear:both;
+}
+
 table, th, td {
     border: none;
     border-collapse: collapse;
 }
+
 th, td {
     padding: 15px;
 }
+
 p {
 	font-family: sans-serif;
 	color: #0000FF;
